@@ -12,6 +12,17 @@ public class Doctor {
         return id;
     }
 
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", specialization='" + specialization + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void setId(int id) {
         this.id = id;
     }
